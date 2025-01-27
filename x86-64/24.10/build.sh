@@ -33,8 +33,7 @@ PACKAGES="$PACKAGES zsh"
 #PACKAGES="$PACKAGES ddns-scripts"
 #PACKAGES="$PACKAGES ddns-scripts-services"
 PACKAGES="$PACKAGES ddns-scripts_aliyun"
-PACKAGES="$PACKAGES luci-app-ddns"
-PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn luci-app-ddns"
 
 
 # 判断是否需要编译 Docker 插件
