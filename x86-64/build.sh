@@ -28,6 +28,13 @@ PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES zsh"
 
+#DDNS相关
+#PACKAGES="$PACKAGES ddns-scripts"
+#PACKAGES="$PACKAGES ddns-scripts-services"
+PACKAGES="$PACKAGES ddns-scripts_aliyun"
+PACKAGES="$PACKAGES luci-app-ddns"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
